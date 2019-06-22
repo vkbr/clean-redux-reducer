@@ -1,5 +1,5 @@
 {
-  "name": "create-redux-reducer",
+  "name": "clean-redux-reducer",
   "version": "0.0.1",
   "description": "Syntatic sugar for creating reducer",
   "main": "dist/index.js",

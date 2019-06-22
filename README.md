@@ -1,4 +1,4 @@
-# Create Redux Reducer
+# Clean Redux Reducer
 
 Create reducer without messy looking switch statements.
 
@@ -6,19 +6,19 @@ Create reducer without messy looking switch statements.
 
 NPM:
 ```
-npm install create-redux-reducer
+npm install clean-redux-reducer
 ```
 
 Yarn:
 ```
-yarn add create-redux-reducer
+yarn add clean-redux-reducer
 ```
 
 ## Usage
 
 ```js
 // reducer.js
-import CreateReducer from 'create-redux-reducer';
+import CreateReducer from 'clean-redux-reducer';
 
 const initialState = {
 	// ...
