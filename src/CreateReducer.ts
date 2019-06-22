@@ -1,7 +1,4 @@
-export interface ReduxAction {
-	type: string,
-	[key: string]: any,
-}
+import { ReduxAction } from './types';
 
 interface CreateReducerProps {
 	initialState: object,
@@ -18,7 +15,7 @@ class CreateReducer {
 		this.initialState = initialState;
 	}
 
-	addCase(actionType: string, action: ReduxAction): this {
+	addCase(actionType: string, action): this {
 		this.actions = {
 			...this.actions,
 			[actionType]: action,

@@ -4,6 +4,7 @@
   "description": "Clean way to create reducer",
   "main": "dist/index.js",
 	"keywords": ["redux", "reducer"],
+	"types": "index.d.ts",
 	"scripts": {
 		"dev": "tsc --watch",
 		"build": "rm -rf dist && tsc"
