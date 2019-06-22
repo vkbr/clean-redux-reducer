@@ -1,0 +1,15 @@
+{
+  "name": "create-redux-reducer",
+  "version": "0.0.1",
+  "description": "Syntatic sugar for creating reducer",
+  "main": "dist/index.js",
+	"scripts": {
+		"dev": "tsc --watch",
+		"build": "rm -rf dist && tsc"
+	},
+  "author": "vkbr",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
