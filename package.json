@@ -1,6 +1,6 @@
 {
   "name": "clean-redux-reducer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Clean way to create reducer",
   "main": "dist/index.js",
 	"keywords": ["redux", "reducer"],
